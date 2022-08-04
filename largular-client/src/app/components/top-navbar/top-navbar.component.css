@@ -1,0 +1,25 @@
+.top-navbar {
+  background: #444499;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top-navbar-button {
+  transition: ease-in-out 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0vw 1vw 0vw 1vw;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.top-navbar-button:hover {
+  transition: ease-in-out 0.2s;
+  background: #444488;
+}
+

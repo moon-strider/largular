@@ -1,0 +1,20 @@
+.comment-large {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: auto;
+}
+
+.comment-large-author {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.comment-large-message {
+  font-size: 14pt;
+}
+
+.comment-large-id {
+  font-size: 14pt;
+}
