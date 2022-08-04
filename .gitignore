@@ -1,42 +1,48 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+./largular-client/dist
+./largular-client/tmp
+./largular-client/out-tsc
+./largular-client/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+./largular-client/node_modules
+./largular-client/npm-debug.log
+./largular-client/yarn-error.log
 
 # IDEs and editors
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+./largular-client/.idea/
+./largular-client/.project
+./largular-client/.classpath
+./largular-client/.c9/
+./largular-client/*.launch
+./largular-client/.settings/
+./largular-client/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+./largular-client/.vscode/*
+!./largular-client/.vscode/settings.json
+!./largular-client/.vscode/tasks.json
+!./largular-client/.vscode/launch.json
+!./largular-client/.vscode/extensions.json
+./largular-client/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+./largular-client/.angular/cache
+./largular-client/.sass-cache/
+./largular-client/connect.lock
+./largular-client/coverage
+./largular-client/libpeerconnection.log
+./largular-client/testem.log
+./largular-client/typings
 
 # System files
-.DS_Store
-Thumbs.db
+./largular-client.DS_Store
+./largular-clientThumbs.db
+/largular-client/node_modules/
+/largular-client/.angular/cache/14.1.1/
+/largular-client/.vscode/extensions.json
+/largular-client/.vscode/launch.json
+/largular-client/.vscode/tasks.json
