@@ -1,14 +1,29 @@
 .top-navbar {
-  background: #444499;
-  height: 4vh;
+  background: #1c1e24;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navbar-container,
+.top-navbar-profile-container,
+.top-navbar-logo {
+  padding: 0 2vw 0 2vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
+.top-navbar-logo {
+  font-size: 24pt;
+  color: white;
+}
+
 .top-navbar-button {
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.1s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,10 +31,30 @@
   padding: 0vw 1vw 0vw 1vw;
   text-decoration: none;
   color: aliceblue;
+  font-size: 14pt;
+}
+
+.top-navbar-profile-button {
+  color: white;
+  margin: 0 1vw 0 1vw;
+  transition: ease-in-out 0.1s;
+}
+
+.top-navbar-signup-bg {
+  border: 1px solid #715bfe;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  background: #715bfe;
+}
+
+.top-navbar-profile-button:hover {
+  display: block;
+  transition: ease-in-out 0.1s;
+  transform: scale(1.2);
 }
 
 .top-navbar-button:hover {
-  transition: ease-in-out 0.2s;
-  background: #444488;
+  transition: ease-in-out 0.1s;
+  transform: scale(1.2);
 }
 

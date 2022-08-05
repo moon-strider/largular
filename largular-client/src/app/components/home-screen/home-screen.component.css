@@ -9,7 +9,7 @@
   padding: 3vh 0 0 0;
   font-size: 72pt;
   display: inline-block;
-  background: linear-gradient(to right, #f58f1b 39%, #ff2e2e 39%);
+  background: #fdfdfe;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -26,10 +26,10 @@
   font-size: 24pt;
   text-align: justify;
   padding: 2vh 0 0 0;
-  color: antiquewhite;
+  color: #fdfdfe;
 }
 
 a {
   text-decoration: none;
-  color: #ffcc9d;
+  color: #cfcaff;
 }
