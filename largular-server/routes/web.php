@@ -22,5 +22,6 @@ Route::get('/getUsers', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin');
+    $logged = true;
+    return view('admin', compact('logged'));
 });

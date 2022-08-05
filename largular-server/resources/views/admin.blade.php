@@ -6,14 +6,18 @@
     <link href="{{ URL::asset('resources/css/admin.css') }}" rel="stylesheet" />
 </head>
 <body>
+@if ($logged != true)
     <div class="login-screen">
     <div class="login-screen-inner">
         <input id="login-input" type="text" placeholder="Login...">
         <input id="password-input" type="password" placeholder="Password...">
-        <button class="login-screen-button">
-        Login
-        </button>
+        <a class="login-screen-button" href="{{ url('/') }}">
+            Login
+        </a>
     </div>
     </div>
+@else
+    Logged in as admin
+@endif
 </body>
 </html>
