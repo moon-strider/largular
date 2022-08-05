@@ -21,13 +21,13 @@ img {
   background: white;
   width: 7vh;
   height: 7vh;
-  border-radius: 34px;
   margin: 0 10px 0 0;
+  border-radius: 150px;
 }
 
 span {
   padding: 0 15px 0 15px;
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
   font-size: 20pt;
 }
