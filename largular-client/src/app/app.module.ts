@@ -11,6 +11,7 @@ import { ProfileScreenComponent } from './components/profile-screen/profile-scre
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TopNavbarProfileComponent } from './components/top-navbar-profile/top-navbar-profile.component';
+import { SignupScreenComponent } from './components/signup-screen/signup-screen.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TopNavbarProfileComponent } from './components/top-navbar-profile/top-n
     ProfileScreenComponent,
     TopNavbarComponent,
     FooterComponent,
-    TopNavbarProfileComponent
+    TopNavbarProfileComponent,
+    SignupScreenComponent
   ],
   imports: [
     BrowserModule,

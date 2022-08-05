@@ -1,6 +1,6 @@
 <a *ngIf="logged == false" class="top-navbar-profile-button" routerLink="/login">Login</a>
 <div *ngIf="logged == false" class="top-navbar-signup-bg">
-  <a class="top-navbar-profile-button">Sign up</a>
+  <a class="top-navbar-profile-button" routerLink="/signup">Sign up</a>
 </div>
 
 <a *ngIf="logged == true" class="top-navbar-profile-block" routerLink="/profile">
