@@ -1,0 +1,9 @@
+<a *ngIf="logged == false" class="top-navbar-profile-button" routerLink="/login">Login</a>
+<div *ngIf="logged == false" class="top-navbar-signup-bg">
+  <a class="top-navbar-profile-button">Sign up</a>
+</div>
+
+<a *ngIf="logged == true" class="top-navbar-profile-block" routerLink="/profile">
+  <img src="https://cdn-icons-png.flaticon.com/512/16/16363.png">
+  <div class="top-navbar-profile-login">Alurielis</div>
+</a>

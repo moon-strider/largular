@@ -1,0 +1,51 @@
+.top-navbar-profile-button {
+  text-align: center;
+  color: white;
+  margin: 0 1vw 0 1vw;
+  transition: ease-in-out 0.1s;
+  font-size: 14pt;
+  display: block;
+  text-decoration: none;
+}
+
+.top-navbar-signup-bg {
+  border: 1px solid #715bfe;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  /*min-width: 5vw;*/
+  background: #715bfe;
+}
+
+.top-navbar-profile-button:hover {
+  display: block;
+  transition: ease-in-out 0.1s;
+  transform: scale(1.2);
+}
+
+img {
+  width: 5vh;
+  width: 5vh;
+}
+
+.top-navbar-profile-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.top-navbar-profile-login {
+  transition: 0.1s ease-in-out;
+  color: white;
+  font-size: 14pt;
+  padding-left: 2vh;
+}
+
+.top-navbar-profile-login:hover {
+  transition: 0.1s ease-in-out;
+  transform: scale(1.1);
+  color: white;
+  font-size: 14pt;
+  display: block;
+}

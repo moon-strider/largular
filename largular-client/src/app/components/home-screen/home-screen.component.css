@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  min-height: 77vh;
 }
 
 .home-screen-title {
-  padding: 3vh 0 0 0;
   font-size: 72pt;
+  text-align: center;
   display: inline-block;
   background: #fdfdfe;
   -webkit-background-clip: text;
@@ -30,6 +31,14 @@
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #cfcaff;
+  transition: ease-in-out 0.1s;
+}
+
+a:hover {
+  display: inline-block;
+  transition: ease-in-out 0.1s;
+  transform: scale(1.1);
 }

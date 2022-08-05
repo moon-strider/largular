@@ -9,6 +9,8 @@ import { AppRouterModule } from "./routing.module";
 import { HomeScreenComponent } from './components/home-screen/home-screen.component';
 import { ProfileScreenComponent } from './components/profile-screen/profile-screen.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TopNavbarProfileComponent } from './components/top-navbar-profile/top-navbar-profile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { TopNavbarComponent } from './components/top-navbar/top-navbar.component
     ProfileCommentBlockComponent,
     HomeScreenComponent,
     ProfileScreenComponent,
-    TopNavbarComponent
+    TopNavbarComponent,
+    FooterComponent,
+    TopNavbarProfileComponent
   ],
   imports: [
     BrowserModule,
