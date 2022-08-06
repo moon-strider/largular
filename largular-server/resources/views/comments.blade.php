@@ -10,10 +10,16 @@
 @if (count($comments))
     @foreach ($comments as $comment)
         <div class="comment">
-            {{ $comment->message }}
+            {{ $comment->id }}.{{ $comment->message }}
+            <form method="post" action={{ route('comments.destroy', $comment) }}>
+                @csrf
+                @method('DELETE')
+                <button type="submit">Delete</button>
+            </form>
         </div>
         <br>
     @endforeach
+    {{ $comments->links('pagination::semantic-ui') }}
 @else
     No comments found.
 @endif

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommentsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,4 +27,4 @@ Route::get('/admin', function () {
     return view('admin', compact('logged'));
 });
 
-Route::get('/comments', 'App\Http\Controllers\CommentsController@index');
+Route::resource('/comments', CommentsController::class);
