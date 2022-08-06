@@ -13,6 +13,9 @@
         <input id="password-input" type="password" placeholder="Password...">
         <a class="login-screen-button" href="{{ url('/') }}">
             Login
+            <?php
+            return redirect()->route('/admin', ['logged' => true]);
+            ?>
         </a>
     </div>
     </div>

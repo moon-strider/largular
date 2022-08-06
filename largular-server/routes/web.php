@@ -22,6 +22,8 @@ Route::get('/getUsers', function () {
 });
 
 Route::get('/admin', function () {
-    $logged = true;
+    $logged = false;
     return view('admin', compact('logged'));
 });
+
+Route::get('/comments', 'App\Http\Controllers\CommentsController@index');
