@@ -12,6 +12,14 @@ class CommentsController extends Controller
         return view('comments', compact('comments'));
     }
 
+    public function show(Comment $comment) {
+        return view('commentShow', compact('comment'));
+    }
+
+    public function update(Comment $comment, Comment $newcomment) {
+        $comment->update($newcomment);
+    }
+
     public function destroy(Comment $comment) {
         $comment->delete();
         return redirect()->route('comments.index');

@@ -7,23 +7,20 @@
 </head>
 <body>
 <div class="comment-container">
-@if (count($comments))
-    @foreach ($comments as $comment)
+    <a href="{{ route('comments.index') }}">Back</a>
+    @if (isset($comment))
         <div class="comment">
             {{ $comment->id }}.{{ $comment->message }}
             <form method="post" action={{ route('comments.destroy', $comment) }}>
                 @csrf
                 @method('DELETE')
                 <button type="submit">Delete</button>
-                <a href={{ route('comments.show', $comment) }}>Show</a>
             </form>
         </div>
         <br>
-    @endforeach
-    {{ $comments->links('pagination::semantic-ui') }}
-@else
-    No comments found.
-@endif
+    @else
+        No comments found.
+    @endif
 </div>
 </body>
 </html>
